@@ -46,8 +46,7 @@ header {
 }
 
 li > a {
-  text-decoration: none;
-    color: #fff;
+  color: #fff;
 }
 
 nav {
@@ -55,13 +54,16 @@ nav {
   grid-row: 1;
 }
 
+ul {
+  display: flex;
+  align-items: flex-start;
+}
+
 li {
   list-style: none;
   font-family: "Patua One", sans-serif;
   font-size: 2rem;
-  margin: 1rem;
   padding: 1rem;
-  display: inline;
 }
 
 h2 {
