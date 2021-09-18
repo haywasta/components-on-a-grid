@@ -45,24 +45,26 @@ header {
   grid-area: banner;
 }
 
-nav {
-  display: flex;
-  flex-direction: row-reverse;
-}
-
 li > a {
   text-decoration: none;
+    color: #fff;
+}
+
+nav {
+  grid-column: 2;
+  grid-row: 1;
 }
 
 li {
   list-style: none;
   font-family: "Patua One", sans-serif;
-  color: #fff;
   font-size: 2rem;
   margin: 1rem;
   padding: 1rem;
+  display: inline;
 }
 
 h2 {
   color: #30658d;
+  font-family: "Patua One", sans-serif;
 }
