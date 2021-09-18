@@ -44,3 +44,18 @@ header {
 .pano {
   grid-area: banner;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li > a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+  font-family: "Patua One", sans-serif;
+}
