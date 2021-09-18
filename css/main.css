@@ -8,6 +8,10 @@ html {
   box-sizing: inherit;
 }
 
+body {
+font-family: "Patua One", sans-serif;
+}
+
 img {
   width: 100%;
 }
