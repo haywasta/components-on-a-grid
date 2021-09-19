@@ -56,14 +56,14 @@ nav {
 
 ul {
   display: flex;
-  align-items: flex-start;
+  justify-content: space-around;
+  margin: 1rem;
 }
 
 li {
   list-style: none;
   font-family: "Patua One", sans-serif;
   font-size: 2rem;
-  padding: 1rem;
 }
 
 h2 {
