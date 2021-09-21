@@ -18,7 +18,7 @@ body {
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
     "banner banner"
-    "col1 col2";
+    "main main";
   gap: 1rem;
 }
 
@@ -69,4 +69,23 @@ li {
 h2 {
   color: #30658d;
   font-family: "Patua One", sans-serif;
+}
+
+main {
+  margin: 0;
+  padding: 1rem;
+  grid-area: main;
+  display: grid;
+  grid-template-areas: "col1 col2";
+  gap: 1rem;
+}
+
+figure {
+  display: flex;
+  flex-direction: row;
+  align-content: space-between;
+}
+
+h2, p {
+  margin: 0;
 }
