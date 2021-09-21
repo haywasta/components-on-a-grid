@@ -73,7 +73,6 @@ h2 {
 
 main {
   margin: 0;
-  padding: 1rem;
   grid-area: main;
   display: grid;
   grid-template-rows: auto;
@@ -83,4 +82,10 @@ main {
 
 h2, p {
   margin: 0;
+}
+
+figure {
+  min-width: 100px;
+  margin: 0;
+  padding: 0;
 }
