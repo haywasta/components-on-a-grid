@@ -76,14 +76,9 @@ main {
   padding: 1rem;
   grid-area: main;
   display: grid;
+  grid-template-rows: auto;
   grid-template-areas: "col1 col2";
   gap: 1rem;
-}
-
-figure {
-  display: flex;
-  flex-direction: row;
-  align-content: space-between;
 }
 
 h2, p {
